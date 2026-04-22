@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {nav} from 'framer-motion/client'
 
 const Navbar=()=>{
+    
   return(
     <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blur-sm py-4 px-8 shadow-lg'>
         <div className='container mx-auto flex justify-between items-center'>
@@ -11,7 +12,7 @@ const Navbar=()=>{
                     
                 </a>
             </div>
-            <div className='hidden:md-flex space-x-10'>
+            <div className='hidden:md-flex space-x-18'>
                 <a href="#home" className='relative text-white transition duration-300 hover:text-amber-400 group'>
                     <span>Home</span>
                     <span className='absolute left-0 bottom-1 w-0 h-0.6 bg-amber-800 transition-all 
@@ -38,7 +39,10 @@ const Navbar=()=>{
                     duration-300 group-hover:w-full'></span>
                 </a>
             </div>
+            
         </div>
+
+        
 
     </nav>
   )
