@@ -29,7 +29,7 @@ const Hero = () => {
                     </p>
 
                     <div className='flex space-x-4'>
-                        <a href="#projects" className='px-6 py-3 bg-amber-400 rounded-lg font-medium hover:bg-amber-800 transition duration-300'>
+                        <a href="#projects" className='px-6 py-3 bg-amber-800 rounded-lg font-medium hover:bg-transparent transition duration-300'>
                             View work
                         </a>
                         <a href="#contact" className='px-6 py-3 border border-amber-400 rounded-lg font-medium hover:bg-amber-800 transition duration-300'>
